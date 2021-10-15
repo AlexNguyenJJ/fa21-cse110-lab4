@@ -24,4 +24,4 @@ Line 9 prints out 0
 ### 6
 Similar to the issue as the `let` keyword, `const` only provided the variable 
 with a scope of the block and not the function. With the same justification
-provided in (question 4)[#4], the code returns an error
+provided in [question 4](#4), the code returns an error
