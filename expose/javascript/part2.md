@@ -139,3 +139,21 @@ The difference between the `==` and `===` operators is that one is an explicit
 deep comparison (`===`) which compares the two values as they are without any
 "automatic" conversion e.g. string -> integer. The other (`==`) compares two 
 values while allowing for automatic type conversion.
+
+### 16
+[Answered in JS file](./part2-question16.js)
+
+### 17
+`[2,4,6]`
+
+After calling `modifyArray([1,2,3], doSomething)`, a new array is created by line
+2 called `newArr`. Then we enter a `for` loop that iterates through the entire
+length of the input array; at each iteration, we push the value returned by the
+callback function which takes an input of each element in the array to our new 
+array `newArr`. On line 4, when we push some value, we enter the callback function 
+`doSomething()` on line 9. This function has a parameter of `num` and since all 
+the elements in our input array are integers, let's just call `num` an integer.
+This function takes the input integer and returns its double by multiplying it 
+by 2. This doubled value is then pushed onto the new array `newArr` and after 
+doubling all the elements in the original array and pushing it to `newArr`, the
+`modifyArray()` function returns `newArr`.
