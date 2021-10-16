@@ -157,3 +157,12 @@ This function takes the input integer and returns its double by multiplying it
 by 2. This doubled value is then pushed onto the new array `newArr` and after 
 doubling all the elements in the original array and pushing it to `newArr`, the
 `modifyArray()` function returns `newArr`.
+
+### 18
+[Answered in JS file](./part2-question18.js)
+
+### 19
+1
+4
+3
+2
